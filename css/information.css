@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+
+
+/*列表*/
+.hotel-list {
+    position: relative;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.hotel-list .hotel-img {
+    width: 100px;
+    height: 96px;
+    background-color: #000;
+    position: absolute;
+    left: 8px;
+}
+
+.hotel-list .hotel-details {
+    margin-left: 150px;
+    vertical-align:middle
+
+}
+
+.hotel-list .hotel-details p {
+    font-size: 1.2rem;
+    margin-top: 5px;
+    color: #999999;
+}
+
+/*列表*/
+
+
+.contact,.reference{
+    font-size: 1.4rem;
+    width: 100%;
+    padding: 10px;
+    background-color: #F2F2F2;
+}
+
+
+.details div {
+    font-size: 1.5rem;
+    padding: 10px;
+    border-bottom: 0.1rem solid #f2f2f2;
+}
+
+.details img {
+    margin-right: 10px;
+}
+
+#hotel-price {
+    height: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#hotel-price .house{
+    padding: 15px;
+    font-size: 1.5rem;
+    height: 25%;
+    border-bottom: 1px solid #CCCCCC;  
+}
+

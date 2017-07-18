@@ -1,0 +1,26 @@
+@charset "utf-8";
+/*头部*/
+.head {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #cccccc;
+    text-align: center;
+    position: relative;
+}
+
+.head .hotel {
+    font-size: 1.8rem;
+    font-weight: 300;
+    color: #000;
+}
+
+.return {
+    font-weight: 500;
+    font-size: 3rem;
+    position: absolute;
+    left: 20px;
+    top:50%;
+    margin-top: -9.5px;
+}
+/*头部*/

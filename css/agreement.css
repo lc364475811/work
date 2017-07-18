@@ -1,0 +1,80 @@
+@charset "utf-8";
+
+
+
+/*导航*/
+.banner{
+    display: flex;
+    border: 0.1rem solid #cccccc;
+}
+
+.banner div{
+    font-size: 1.5rem;
+    background-color: #F2F2F2;
+    line-height: 35px;
+    text-align: center;
+    flex:1;
+    border-left: 0.1rem solid #cccccc;
+    position: relative;
+}
+
+.banner div:nth-child(1){
+    border-left: none;
+}
+
+.banner div img {
+    color: #000000;
+    margin-left: 0.5rem;
+}
+/*导航*/
+
+/*列表*/
+.hotel-list {
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.hotel-list .hotelImg {
+    width: 100px;
+    height: 7.5rem;
+    background-color: #CCCCCC;
+    position: absolute;
+    left: 10px;
+}
+
+.hotel-list .hotel-details {
+    margin-left: 120px;
+    border-bottom: 0.5px solid #F2F2F2;
+
+}
+
+.hotel-list .hotel-details p {
+    font-size: 1.4rem;
+    margin-top: 12px;
+    color: #999999;
+}
+
+/*列表*/
+
+.modal {
+    display: none;
+    z-index: 9999;
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+
+.modal li {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    font-size: 1.6rem;
+    line-height: 60px;
+    padding-left: 2rem;
+    margin-top: 0.3rem;
+}
+
+
